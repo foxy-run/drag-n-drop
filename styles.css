@@ -40,6 +40,7 @@ body {
   color: #828282;
   text-align: center;
   cursor: grab;
+  margin: 10px;
 }
 
 .item:active {
@@ -52,13 +53,48 @@ body {
 }
 
 .start {
-  background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
+  background: linear-gradient(90deg, #228abb 0%, #3d17a7 179.25%);
 }
 
 .progress {
-  background: linear-gradient(90deg, #209cff 0%, #68e0cf 100%);
+  background: linear-gradient(90deg, #9b20ff 0%, #68e0cf 100%);
 }
 
 .done {
-  background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+  background: linear-gradient(90deg, #a01cac 0%, #f48fa8 100%);
+}
+
+.hold{
+  border: 5px solid rgb(200, 187, 218);
+}
+
+.hide {
+  display: none;
+}
+
+.hovered{
+  border-top: 6px double rgb(86, 9, 173) ;
+}
+
+.col-header {
+  border: 2px dotted rgba(71, 76, 124, 0.315);
+  padding: 6px;
+  color: #291ec0;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.trash {
+  
+  border: 2px dotted rebeccapurple;
+  display: flex;
+  border-radius: 20px;
+  text-align: center;
+  padding: 15px;
+  width: 150px;
+  cursor: pointer;
+  position: relative;
+  left: 100px;
+  bottom: -450px;
+  background: linear-gradient(66deg, blue 10%, pink 200% );
 }
